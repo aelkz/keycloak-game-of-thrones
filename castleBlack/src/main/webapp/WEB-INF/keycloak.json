@@ -1,0 +1,11 @@
+{
+  "realm": "HOUSE_STARK",
+  "auth-server-url": "http://rhsso-n1.io:8080/auth",
+  "ssl-required": "none",
+  "resource": "castle_black",
+  "credentials": {
+    "secret": "d0c8a2c8-3c80-4737-90ec-c0c42066d68b"
+  },
+  "use-resource-role-mappings": true,
+  "confidential-port": 0
+}
