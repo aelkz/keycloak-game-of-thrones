@@ -12,6 +12,7 @@
         <module>castleBlack</module>
         <module>winterfell</module>
         <module>kingsLanding</module>
+        <module>got-themes</module>
     </modules>
 
     <repositories>

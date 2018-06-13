@@ -1,8 +1,32 @@
+<%@page contentType="text/html" pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
 <html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>RH-SSO Example App</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css"/>
+</head>
 <body>
-<h2 style="color: red">
-    <img src="styles/error-icon.png" style="height: 20%; height: 20%" />
-    You are not allowed to access this resource.
-</h2>
+
+<div class="wrapper" id="administration">
+    <div class="menu">
+        <button onclick="location.href = '/app-castle-black/profile.jsp'">Profile</button>
+        <!-- aqui poderá ser utilizado um scriptlet para verificar se o usuário possui a role 'administrator' -->
+        <button onclick="location.href='/app-castle-black/admin/onlyAdmin.jsp'" type="button">Administration</button>
+        <!-- visualizar informações do token do usuário -->
+        <button onclick="location.href = '/app-castle-black/profile.jsp?showToken=true'">Token</button>
+        <button onclick="location.href = '/app-castle-black/index.jsp?logout=true'" type="button">Logout</button>
+        <!-- visualizar informações do perfil do usuário no RH-SSO -->
+        <button onclick="location.href = '${accountUri}'" type="button">Account</button>
+    </div>
+
+    <div class="content">
+        <div class="message">
+            <font color="#dc143c"><b>NOT ALLOWED</b>: You are not allowed to access this resource.</font>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

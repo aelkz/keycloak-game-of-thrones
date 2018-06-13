@@ -13,7 +13,7 @@
         <div class="menu">
             <button onclick="location.href = '../profile.jsp'">Profile</button>
             <!-- aqui poderá ser utilizado um scriptlet para verificar se o usuário possui a role 'administrator' -->
-            <button onclick="location.href='onlyAdmin.jsp'" type="button">Administration</button>
+            <button onclick="location.href = 'onlyAdmin.jsp" type="button">Administration</button>
             <!-- visualizar informações do token do usuário -->
             <button onclick="location.href = '../profile.jsp?showToken=true'">Token</button>
             <button onclick="location.href = '../index.jsp?logout=true'" type="button">Logout</button>
