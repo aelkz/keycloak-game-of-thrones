@@ -21,12 +21,12 @@ limitations under the License.
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <title>HOUSE STARK : Castle Black App</title>
+    <title>HOUSE LANNISTER : King's Landing App</title>
     <link rel="stylesheet" type="text/css" href="styles.css"/>
     <link rel="icon" href="styles/logo.png" type="image/gif" sizes="16x16">
 </head>
 <body>
-<jsp:useBean id="controller" class="org.castleblack.app.ProfileController" scope="request"/>
+<jsp:useBean id="controller" class="org.kingslanding.app.ProfileController" scope="request"/>
 <c:set var="idToken" value="<%=controller.getIDToken(request)%>"/>
 <c:set var="tokenString" value="<%=controller.getTokenString(request)%>"/>
 <c:set var="accountUri" value="<%=controller.getAccountUri(request)%>"/>

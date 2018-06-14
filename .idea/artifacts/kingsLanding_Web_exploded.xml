@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="kingsLanding:Web exploded">
+    <output-path>$PROJECT_DIR$/kingsLanding/classes/artifacts/kingsLanding_Web_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="kingsLanding" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="kingsLanding/web/Web" />
+    </root>
+  </artifact>
+</component>

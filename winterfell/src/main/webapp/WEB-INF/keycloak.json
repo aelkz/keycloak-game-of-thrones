@@ -1,0 +1,11 @@
+{
+  "realm": "HOUSE_STARK",
+  "auth-server-url": "http://rhsso-n1.io:8080/auth",
+  "ssl-required": "none",
+  "resource": "winterfell",
+  "credentials": {
+    "secret": "7601a177-34cb-47f3-8c99-3d4df5b76871"
+  },
+  "use-resource-role-mappings": true,
+  "confidential-port": 0
+}

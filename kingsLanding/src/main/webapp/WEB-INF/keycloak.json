@@ -1,0 +1,11 @@
+{
+  "realm": "HOUSE_LANNISTER",
+  "auth-server-url": "http://rhsso-n1.io:8080/auth",
+  "ssl-required": "none",
+  "resource": "kings_landing",
+  "credentials": {
+    "secret": "c83d8cd6-6c63-4803-839f-f76e70d913c9"
+  },
+  "use-resource-role-mappings": true,
+  "confidential-port": 0
+}

@@ -1,11 +1,12 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="castleBlack:Web exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/castleBlack_Web_exploded</output-path>
+    <output-path>$PROJECT_DIR$/castleBlack/classes/artifacts/castleBlack_Web_exploded</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="castleBlack/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="castleBlack" />
+          <element id="module-output" name="kingsLanding" />
         </element>
       </element>
     </root>

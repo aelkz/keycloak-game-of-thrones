@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="winterfell:Web exploded">
+    <output-path>$PROJECT_DIR$/winterfell/classes/artifacts/winterfell_Web_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="winterfell" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="winterfell/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -15,5 +15,8 @@
         <module name="winterfell" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kingsLanding" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

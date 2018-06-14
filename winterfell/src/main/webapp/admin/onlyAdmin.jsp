@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <title>HOUSE STARK : Castle Black App</title>
+    <title>HOUSE STARK : Winterfell App</title>
     <link rel="stylesheet" type="text/css" href="../styles.css"/>
     <link rel="icon" href="../styles/logo.png" type="image/gif" sizes="16x16">
 </head>
@@ -24,7 +24,7 @@
 
         <div class="content">
             <div class="message">
-                You have access to this page because you are the Lord Commander!
+                You have access to this page because you are the King of the North!
             </div>
         </div>
     </div>

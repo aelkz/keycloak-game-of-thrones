@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <title>HOUSE STARK : Castle Black App</title>
+    <title>HOUSE STARK : Winterfell App</title>
     <link rel="icon" href="../styles/logo.png" type="image/gif" sizes="16x16">
     <link rel="stylesheet" type="text/css" href="../styles.css"/>
 </head>
@@ -12,12 +12,12 @@
 
 <div class="wrapper" id="administration">
     <div class="menu">
-        <button onclick="location.href = '/app-castle-black/profile.jsp'">Profile</button>
+        <button onclick="location.href = '/app-winterfell/profile.jsp'">Profile</button>
         <!-- aqui poderá ser utilizado um scriptlet para verificar se o usuário possui a role 'administrator' -->
-        <button onclick="location.href='/app-castle-black/admin/onlyAdmin.jsp'" type="button">Administration</button>
+        <button onclick="location.href='/app-winterfell/admin/onlyAdmin.jsp'" type="button">Administration</button>
         <!-- visualizar informações do token do usuário -->
-        <button onclick="location.href = '/app-castle-black/profile.jsp?showToken=true'">Token</button>
-        <button onclick="location.href = '/app-castle-black/index.jsp?logout=true'" type="button">Logout</button>
+        <button onclick="location.href = '/app-winterfell/profile.jsp?showToken=true'">Token</button>
+        <button onclick="location.href = '/app-winterfell/index.jsp?logout=true'" type="button">Logout</button>
         <!-- visualizar informações do perfil do usuário no RH-SSO -->
         <button onclick="location.href = '${accountUri}'" type="button">Account</button>
     </div>

@@ -21,12 +21,12 @@ limitations under the License.
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <title>HOUSE STARK : Castle Black App</title>
+    <title>HOUSE STARK : Winterfell App</title>
     <link rel="icon" href="styles/logo.png" type="image/gif" sizes="16x16">
     <link rel="stylesheet" type="text/css" href="styles.css"/>
 </head>
 <body>
-<jsp:useBean id="controller" class="org.castleblack.app.ProfileController" scope="request"/>
+<jsp:useBean id="controller" class="org.winterfell.app.ProfileController" scope="request"/>
 <% controller.handleLogout(request); %>
 
 <c:set var="isLoggedIn" value="<%=controller.isLoggedIn(request)%>"/>
@@ -40,9 +40,9 @@ limitations under the License.
     </div>
 
     <div class="content">
-        <b>CASTLE BLACK APPLICATION</b>
+        <b>WINTERFELL APPLICATION</b>
         <div class="message">
-            <img src="styles/icon.png" style="position: relative;" height="134px" width="180px"/>
+            <img src="styles/icon.png" style="position: relative;" height="180px" width="180px"/>
             Please login if you respect the <b>King of the North</b>!
         </div>
     </div>
