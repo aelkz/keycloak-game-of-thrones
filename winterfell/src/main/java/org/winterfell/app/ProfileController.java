@@ -101,4 +101,7 @@ public class ProfileController {
     private KeycloakSecurityContext getSession(HttpServletRequest req) {
         return (KeycloakSecurityContext) req.getAttribute(KeycloakSecurityContext.class.getName());
     }
+
+
+
 }
